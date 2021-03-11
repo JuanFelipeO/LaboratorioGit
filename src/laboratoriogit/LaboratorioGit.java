@@ -17,7 +17,8 @@ public class LaboratorioGit
      */
     public static void main(String[] args) 
     {
-        // TODO code application logic here
+        IngresarPersona persona= new IngresarPersona();
+        persona.IngresarDatos();
     }
     
 }
