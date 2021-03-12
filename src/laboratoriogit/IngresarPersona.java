@@ -30,10 +30,10 @@ public class IngresarPersona implements Serializable
            nombre = entradaEscaner.nextLine();
            nombres.add(nombre);
            System.out.println("Ingrese el telefono de la persona ingresada:");
-           telefono = entradaEscaner.nextLine();;
+           telefono = entradaEscaner.nextLine();
            telefonos.add(telefono);
            System.out.println("Ingrese el # de C.C de la persona ingresada:");
-           cedula = entradaEscaner.nextLine();;
+           cedula = entradaEscaner.nextLine();
            cedulas.add(cedula);
        }
         
@@ -41,12 +41,10 @@ public class IngresarPersona implements Serializable
         System.out.println("Lista de nombres ingresados:");
         System.out.println(nombres.toString());
         System.out.println("");
-        System.out.println("Telefonso de las personas ingresadas:");
+        System.out.println("Telefonos de las personas ingresadas:");
         System.out.println(telefonos.toString());
         System.out.println("");
         System.out.println("Cedulas de las personas ingresadas:");
         System.out.println(cedulas.toString());
     }
-    
-    
 }
