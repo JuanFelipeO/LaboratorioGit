@@ -9,11 +9,10 @@ public class LaboratorioGit
 
     public static void main(String[] args) 
     {
-        //IngresarPersona persona= new IngresarPersona();
-        //persona.IngresarDatos();
+        IngresarPersona persona= new IngresarPersona();
+        persona.IngresarDatos();
         
         ListaVehiculos vehiculos = new ListaVehiculos();
         vehiculos.registrarVehiculos();
-    }
-    
+    }   
 }
