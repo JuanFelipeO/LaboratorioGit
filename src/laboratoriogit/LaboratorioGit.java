@@ -14,5 +14,9 @@ public class LaboratorioGit
         
         ListaVehiculos vehiculos = new ListaVehiculos();
         vehiculos.registrarVehiculos();
+        
+        RefugioPerros perros = new RefugioPerros();
+        perros.llenarRefugio();
+        
     }   
 }
